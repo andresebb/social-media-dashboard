@@ -1,0 +1,11 @@
+mixin box(imagen, user, number, imagen2, colore) 
+    div.social__boxes
+        div(class= "social__red"+ colore)
+            img(src="../images/"+imagen, alt="")
+            p= user
+        .social__followers
+            h2= number
+            p followers
+        .social__date
+            img(src="../images/"+imagen2, alt="")
+            p 12 Today

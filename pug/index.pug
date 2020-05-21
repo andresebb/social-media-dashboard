@@ -1,8 +1,20 @@
+include globales.pug
 <!DOCTYPE html>
+
 html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Social Media
         link(rel="stylesheet", href="../css/styles.css")
+        link(href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet")
     body
+        header
+            div.header__titulo
+                h2 Social Media Dashboard
+                p Total Followers: 23.004
+            div.header__dark
+                p Dark Mode
+                input(type="checkbox")
+        section.social
+            +box("icon-facebook.svg", "@andresebb", "1987", "icon-up.svg", " fb--class")
