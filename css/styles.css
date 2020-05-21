@@ -1,7 +1,3 @@
-.header__titulo {
-  background: red;
-}
-
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -16,7 +12,43 @@ body {
   text-align: center;
   background: #f0f3fa;
   margin-right: 15px;
+  padding: 15px;
+  border-radius: 5px;
 }
-.social__boxes .fb--class {
+.social__boxes .social__followers h2 {
+  font-size: 50px;
+  margin: 0;
+}
+.social__boxes .social__followers p {
+  margin: 0;
+  text-transform: uppercase;
+  color: #6e707c;
+}
+.social__boxes .social__red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.social__boxes .social__red p {
+  font-size: 14px;
+  padding: 6px;
+}
+.social__boxes .social__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 20px 5px 20px;
+}
+.social .fb--class {
+  border-top: 5px solid #198ff5;
+}
+.social .tw--class {
+  border-top: 5px solid #1ca0f2;
+}
+.social .ig--class {
+  border-top: 5px solid linear gradient #fdc468 to #df4996;
+}
+.social .yt--class {
   border-top: 5px solid red;
 }

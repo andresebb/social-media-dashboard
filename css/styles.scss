@@ -1,10 +1,5 @@
 $fuente: 'Inter', sans-serif;
 
-
-.header__titulo{
-    background: red;
-}
-
 body{
     margin: 0;
     font-family: $fuente;
@@ -22,8 +17,55 @@ h2 {
         text-align: center;
         background: #f0f3fa;
         margin-right:15px;
-        .fb--class{
-            border-top: 5px solid red;
+        padding: 15px;
+        border-radius: 5px;
+
+        .social__followers{
+            h2{
+                font-size: 50px;
+                margin: 0;
+            }
+            p{
+                margin: 0;
+                text-transform: uppercase;
+                color: #6e707c;
+            }
+        }
+
+        .social__red{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            p{
+                font-size: 14px;
+                padding: 6px;
+            }
+        }     
+
+        .social__date{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px 20px 5px 20px ;
         }
     }
+    
+    .fb--class{
+    border-top: 5px solid hsl(208, 92%, 53%);
+    }
+
+    .tw--class{
+    border-top: 5px solid hsl(203, 89%, 53%);
+    }
+    
+    .ig--class{
+    border-top: 5px solid linear-gradient(45deg, #f410f2cc, transparent)
+    }
+
+    .yt--class{
+    border-top: 5px solid YouTube: hsl(348, 97%, 39%);
+    }
+
+    
 }
