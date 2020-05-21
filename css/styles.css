@@ -47,8 +47,8 @@ body {
   border-top: 5px solid #1ca0f2;
 }
 .social .ig--class {
-  border-top: 5px solid linear gradient #fdc468 to #df4996;
+  background: red;
 }
 .social .yt--class {
-  border-top: 5px solid red;
+  border-top: 5px solid #c4032a;
 }
