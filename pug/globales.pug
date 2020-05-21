@@ -9,3 +9,14 @@ mixin box(imagen, user, number, imagen2, colore)
         .social__date
             img(src="../images/"+imagen2, alt="")
             p 12 Today
+
+mixin boxOverview(like, image, number, icon, number2, color)
+    .overview__container__son
+        .overview__top
+            p= like
+            img(src="../images/"+image, alt="")
+        .overview__down
+            p= number
+            div(class="overview__down--right"+ color)
+                img(src="../images/"+icon, alt="")
+                p= number2

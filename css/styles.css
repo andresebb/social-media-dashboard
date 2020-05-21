@@ -1,6 +1,25 @@
 body {
   margin: 0;
+  margin: 0 110px;
   font-family: "Inter", sans-serif;
+  position: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .header__titulo h2 {
+  margin: 0;
+}
+header .header__titulo p {
+  margin-top: 0;
+  color: #676b77;
+  font-weight: bold;
+}
+header .header__dark {
+  display: flex;
+  align-items: center;
 }
 
 .social {
@@ -28,17 +47,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
 .social__boxes .social__red p {
   font-size: 14px;
   padding: 6px;
+  font-weight: bold;
+  color: #676b77;
 }
 .social__boxes .social__date {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 25px 20px 5px 20px;
+  margin: 10px 20px 0px 20px;
+}
+.social__boxes p {
+  margin-left: 8px;
 }
 .social .fb--class {
   border-top: 5px solid #198ff5;
@@ -47,8 +70,60 @@ body {
   border-top: 5px solid #1ca0f2;
 }
 .social .ig--class {
-  background: red;
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, #fdc468 0%, #df4996);
+  border-image-slice: 1;
 }
 .social .yt--class {
   border-top: 5px solid #c4032a;
+}
+
+.overview h2 {
+  color: #676b77;
+}
+
+.overview__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.overview__container__son {
+  width: 250px;
+  padding: 15px;
+  background: #f0f3fa;
+  margin: 0 15px 15px 0;
+  border-radius: 5px;
+}
+.overview__container__son .overview__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overview__container__son .overview__top p {
+  color: #676b77;
+  font-weight: bold;
+}
+.overview__container__son .overview__down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overview__container__son .overview__down p {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+}
+.overview__container__son .overview__down--right {
+  display: flex;
+  align-items: center;
+}
+.overview__container__son .overview__down .verde p {
+  color: #1db489;
+  font-size: 14px;
+  font-weight: normal;
+}
+.overview__container__son .overview__down .rojo p {
+  color: #dc414c;
+  font-size: 14px;
+  font-weight: normal;
 }
