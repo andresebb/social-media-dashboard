@@ -63,6 +63,9 @@ header .header__dark {
 .social__boxes p {
   margin-left: 8px;
 }
+.social__boxes:last-child {
+  margin-right: 0;
+}
 .social .fb--class {
   border-top: 5px solid #198ff5;
 }
@@ -126,4 +129,10 @@ header .header__dark {
   color: #dc414c;
   font-size: 14px;
   font-weight: normal;
+}
+.overview__container__son:nth-child(4) {
+  margin-right: 0;
+}
+.overview__container__son:nth-child(8) {
+  margin-right: 0;
 }

@@ -79,6 +79,10 @@ header{
             margin-left: 8px;
         }
     }
+
+    &__boxes:last-child{
+        margin-right: 0;
+    }
     
     .fb--class{
     border-top: 5px solid hsl(208, 92%, 53%);
@@ -165,5 +169,13 @@ header{
         }
 
 
+    }
+
+    &__son:nth-child(4){
+        margin-right: 0;
+    }
+
+    &__son:nth-child(8){
+        margin-right: 0;
     }
 }
