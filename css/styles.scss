@@ -90,6 +90,7 @@ header{
 
         p{
             margin-left: 8px;
+            font-weight: bold;
         }
     }
 
@@ -195,7 +196,7 @@ header{
 
 ///////////////////////////////////////////*DARK VERSION*/
 
-.dark__fond{
+.dark__fond {
     background: #1d2029;
     
     &__header{
@@ -210,5 +211,23 @@ header{
 
     &__box{
         background: #252b43;
+        
+        .social__date {
+                p{
+                    color: green;
+                }
+        }
+
+        .social__date:nth-child(4){
+            p{
+                color: red;
+            }
+            }
+        }
+
+    h2{
+        color: white;
     }
+
 }
+

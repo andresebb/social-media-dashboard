@@ -75,6 +75,7 @@ header .header__dark {
 }
 .social__boxes p {
   margin-left: 8px;
+  font-weight: bold;
 }
 .social__boxes:last-child {
   margin-right: 0;
@@ -164,4 +165,13 @@ header .header__dark {
 }
 .dark__fond__box {
   background: #252b43;
+}
+.dark__fond__box .social__date p {
+  color: green;
+}
+.dark__fond__box .social__date:nth-child(4) p {
+  color: red;
+}
+.dark__fond h2 {
+  color: white;
 }
