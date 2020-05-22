@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px 110px 0 110px;
+  background-color: #f8f9fe;
+  height: 180px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+header .header__titulo h2 {
+  margin: 0;
+}
+header .header__titulo p {
+  margin-top: 0;
+  color: #676b77;
+  font-weight: bold;
+}
+header .header__dark {
+  display: flex;
+  height: 20%;
+  align-items: center;
+}

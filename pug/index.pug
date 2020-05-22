@@ -18,24 +18,24 @@ html(lang="en")
                 input.checkbox(type="checkbox")
         .wrapper
             section.social
-                +box("icon-facebook.svg", "@andresebb", "1987", "icon-up.svg", " fb--class otra-clase")
-                +box("icon-twitter.svg", "@andresebb", "1044", "icon-up.svg", " tw--class otra-clase1")
-                +box("icon-instagram.svg", "@aeb001", "11k", "icon-up.svg", " ig--class otra-clase2")
-                +box("icon-youtube.svg", "@andresebb001", "8239", "icon-down.svg", " yt--class otra-clase3")
+                +box("icon-facebook.svg", "@andresebb", "1987", "icon-up.svg", " fb--class otra-clase", " verde")
+                +box("icon-twitter.svg", "@andresebb", "1044", "icon-up.svg", " tw--class otra-clase1", " verde")
+                +box("icon-instagram.svg", "@aeb001", "11k", "icon-up.svg", " ig--class otra-clase2", " verde")
+                +box("icon-youtube.svg", "@andresebb001", "8239", "icon-down.svg", " yt--class otra-clase3", " rojo")
                 
             section.overview
                 h2 Overview - Today
                 .overview__container
 
-                    +boxOverview("Page Views", "icon-facebook.svg", "87", "icon-up.svg", "3%", " verde")
-                    +boxOverview("Likes", "icon-facebook.svg", "52", "icon-down.svg", "2%", " rojo")
+                    +boxOverview("Page Views", "icon-facebook.svg", "87", "icon-up.svg", "3%", " verde", " box__down1")
+                    +boxOverview("Likes", "icon-facebook.svg", "52", "icon-down.svg", "2%", " rojo", " box__down2")
                     
-                    +boxOverview("Likes", "icon-instagram.svg", "5462", "icon-up.svg", "2257%", " verde")
-                    +boxOverview("Profile Views", "icon-instagram.svg", "52k", "icon-up.svg", "1375%", " verde")
+                    +boxOverview("Likes", "icon-instagram.svg", "5462", "icon-up.svg", "2257%", " verde", " box__down3")
+                    +boxOverview("Profile Views", "icon-instagram.svg", "52k", "icon-up.svg", "1375%", " verde", " box__down4")
                     
-                    +boxOverview("Retweets", "icon-twitter.svg", "107", "icon-up.svg", "303%", " verde")
-                    +boxOverview("Likes", "icon-twitter.svg", "507", "icon-up.svg", "553%", " verde")
+                    +boxOverview("Retweets", "icon-twitter.svg", "107", "icon-up.svg", "303%", " verde", " box__down5")
+                    +boxOverview("Likes", "icon-twitter.svg", "507", "icon-up.svg", "553%", " verde", " box__down6")
                     
-                    +boxOverview("Likes", "icon-youtube.svg", "107", "icon-down.svg", "19%", " rojo")
-                    +boxOverview("Total Views", "icon-youtube.svg", "1407", "icon-down.svg", "12%", " rojo")
+                    +boxOverview("Likes", "icon-youtube.svg", "107", "icon-down.svg", "19%", " rojo", " box__down7")
+                    +boxOverview("Total Views", "icon-youtube.svg", "1407", "icon-down.svg", "12%", " rojo", " box__down8")
             script(src="../javascript/evento.js")

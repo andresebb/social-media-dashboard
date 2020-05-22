@@ -1,4 +1,4 @@
-mixin box(imagen, user, number, imagen2, colore) 
+mixin box(imagen, user, number, imagen2, colore, clase) 
     div(class= "social__boxes"+ colore)
         div.social__red
             img(src="../images/"+imagen, alt="")
@@ -6,12 +6,12 @@ mixin box(imagen, user, number, imagen2, colore)
         .social__followers
             h2= number
             p followers
-        .social__date
+        div(class="social__date"+ clase)
             img(src="../images/"+imagen2, alt="")
-            p.verde 12 Today
+            p 12 Today
 
-mixin boxOverview(like, image, number, icon, number2, color)
-    .overview__container__son
+mixin boxOverview(like, image, number, icon, number2, color, clase)
+    div(class="overview__container__son"+ clase)
         .overview__top
             p= like
             img(src="../images/"+image, alt="")

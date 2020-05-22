@@ -71,11 +71,22 @@ header .header__dark {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 20px 0px 20px;
+  margin: 0 auto;
 }
-.social__boxes p {
-  margin-left: 8px;
+.social__boxes .social__date p {
+  margin-left: 5px;
+}
+.social__boxes .verde {
   font-weight: bold;
+}
+.social__boxes .verde p {
+  color: #1db489;
+}
+.social__boxes .rojo {
+  font-weight: bold;
+}
+.social__boxes .rojo p {
+  color: #dc414c;
 }
 .social__boxes:last-child {
   margin-right: 0;
@@ -137,12 +148,12 @@ header .header__dark {
 .overview__container__son .overview__down .verde p {
   color: #1db489;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .overview__container__son .overview__down .rojo p {
   color: #dc414c;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .overview__container__son:nth-child(4) {
   margin-right: 0;
@@ -166,11 +177,8 @@ header .header__dark {
 .dark__fond__box {
   background: #252b43;
 }
-.dark__fond__box .social__date p {
-  color: green;
-}
-.dark__fond__box .social__date:nth-child(4) p {
-  color: red;
+.dark__fond__box .overview__down p {
+  color: white;
 }
 .dark__fond h2 {
   color: white;
