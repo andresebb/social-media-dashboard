@@ -197,4 +197,18 @@ header{
 
 .dark__fond{
     background: #1d2029;
+    
+    &__header{
+        background: #20222f;
+        h2{
+            color: white;
+        }
+        p{
+            color: white !important;
+        }
+    }
+
+    &__box{
+        background: #252b43;
+    }
 }
