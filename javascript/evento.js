@@ -12,15 +12,21 @@ let $box4 = document.querySelector(".otra-clase3");
 let box = [$box1, $box2, $box3, $box4];
 console.log(box)
 
+/*
+for(var i =0; i < box.length; i++){
+    box[i].classList.add("dark__fond__box");
+}
 
-let $boxDown1 = document.querySelector(".box__down1");
-let $boxDown2 = document.querySelector(".box__down2");
-let $boxDown3 = document.querySelector(".box__down3");
-let $boxDown4 = document.querySelector(".box__down4");
-let $boxDown5 = document.querySelector(".box__down5");
-let $boxDown6 = document.querySelector(".box__down6");
-let $boxDown7 = document.querySelector(".box__down7");
-let $boxDown8 = document.querySelector(".box__down8");
+*/
+
+let boxes__down = document.querySelectorAll(".overview__container__son")
+
+
+/*
+for(var i = 0; i < boxes__down.length; i++){
+    boxes__down[i].classList.add("dark__fond__box");
+}
+*/
 
 
 
@@ -34,14 +40,9 @@ function quitar(){
         box[i].classList.remove("dark__fond__box");
     }
     
-    $boxDown1.classList.remove("dark__fond__box");
-    $boxDown2.classList.remove("dark__fond__box");
-    $boxDown3.classList.remove("dark__fond__box");
-    $boxDown4.classList.remove("dark__fond__box");
-    $boxDown5.classList.remove("dark__fond__box");
-    $boxDown6.classList.remove("dark__fond__box");
-    $boxDown7.classList.remove("dark__fond__box");
-    $boxDown8.classList.remove("dark__fond__box");
+    for(var i = 0; i < boxes__down.length; i++){
+        boxes__down[i].classList.remove("dark__fond__box");
+    }
 }
 
 function agregar(){
@@ -53,14 +54,10 @@ function agregar(){
         box[i].classList.add("dark__fond__box");
     }
 
-    $boxDown1.classList.add("dark__fond__box");
-    $boxDown2.classList.add("dark__fond__box");
-    $boxDown3.classList.add("dark__fond__box");
-    $boxDown4.classList.add("dark__fond__box");
-    $boxDown5.classList.add("dark__fond__box");
-    $boxDown6.classList.add("dark__fond__box");
-    $boxDown7.classList.add("dark__fond__box");
-    $boxDown8.classList.add("dark__fond__box");
+    for(var i = 0; i < boxes__down.length; i++){
+        boxes__down[i].classList.add("dark__fond__box");
+    }
+    console.log(boxes__down);
 }
 
 function darkVersion(){
