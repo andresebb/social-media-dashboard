@@ -2,9 +2,15 @@ $fuente: 'Inter', sans-serif;
 
 body{
     margin: 0;
-    margin: 0 110px;
     font-family: $fuente;
-    position: fixed;
+}
+
+.wrapper{
+    margin: 0 110px;
+    position: relative;
+    top: -110px;
+    left: 0;
+    right: 0;
 }
 
 h2 {
@@ -14,6 +20,12 @@ h2 {
 header{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    padding: 15px 110px 0 110px;
+    background-color: #f8f9fe;
+    height: 180px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 
     .header__titulo{
         h2{
@@ -29,6 +41,7 @@ header{
 
     .header__dark{
         display: flex;
+        height: 20%;
         align-items: center;
     }
 }
@@ -118,7 +131,7 @@ header{
     justify-content: center;
 
     &__son{
-        width: 250px;
+        width: 240px;
         padding: 15px;
         background: #f0f3fa;
         margin: 0 15px 15px 0;
@@ -178,4 +191,10 @@ header{
     &__son:nth-child(8){
         margin-right: 0;
     }
+}
+
+///////////////////////////////////////////*DARK VERSION*/
+
+.dark__fond{
+    background: #1d2029;
 }
