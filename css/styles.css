@@ -40,7 +40,7 @@ header .header__dark {
   justify-content: center;
 }
 .social__boxes {
-  width: 250px;
+  width: 240px;
   text-align: center;
   background: #f0f3fa;
   margin-right: 15px;
@@ -112,7 +112,6 @@ header .header__dark {
 
 .overview__container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 .overview__container__son {
