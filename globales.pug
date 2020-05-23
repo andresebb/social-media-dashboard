@@ -1,22 +1,22 @@
 mixin box(imagen, user, number, imagen2, colore, clase) 
     div(class= "social__boxes"+ colore)
         div.social__red
-            img(src="../images/"+imagen, alt="")
+            img(src="images/"+imagen, alt="")
             p= user
         .social__followers
             h2= number
             p followers
         div(class="social__date"+ clase)
-            img(src="../images/"+imagen2, alt="")
+            img(src="images/"+imagen2, alt="")
             p 12 Today
 
 mixin boxOverview(like, image, number, icon, number2, color, clase)
     div(class="overview__container__son"+ clase)
         .overview__top
             p= like
-            img(src="../images/"+image, alt="")
+            img(src="images/"+image, alt="")
         .overview__down
             p= number
             div(class="overview__down--right"+ color)
-                img(src="../images/"+icon, alt="")
+                img(src="images/"+icon, alt="")
                 p= number2
